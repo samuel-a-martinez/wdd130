@@ -207,3 +207,56 @@ label {
     border-radius: 5px;
     cursor: pointer;
 }
+.cta {
+    text-align: center;
+    margin: 2rem 0;
+}
+.cta a {
+    background-color: #0a9396;
+    color: white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+}
+.trips-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    padding: 2rem; 
+}
+.trip {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    width: 300px;
+    overflow: hidden;
+}
+.trip img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.trip-content {
+    padding: 1rem;
+}
+.trip-content h3 {
+    margin-top: 0;
+}
+.trip-table {
+    width: 90%;
+    margin: 2rem auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.trip-table th,
+.trip-table td {
+    border: 1px solid #ccc;
+    padding: 0.8rem;
+    text-align: center;
+}
+.trip-table th {
+    background-color: #94d2bd;
+}
