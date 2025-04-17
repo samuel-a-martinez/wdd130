@@ -183,7 +183,7 @@ form p {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    margin: 20;
+    margin: 20px;
     display: flex;
 }
 label {
